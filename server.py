@@ -2,13 +2,12 @@ import socket
 import json
 
 ## we store products in memory. trying to keep it lightweight
-products = {"book":{"price":1, "inventory_count":5},
-            "shoe":{"price":2, "inventory_count":6},
-            "food":{"price":3, "inventory_count":7},
-            "bark":{"price":4, "inventory_count":8},
-            "bark":{"price":4, "inventory_count":8},
-            "bazz":{"price":5, "inventory_count":9},
-            "booo":{"price":100, "inventory_count":0}}
+products = {"book":{"title":"book", "price":1, "inventory_count":5},
+            "shoe":{"title":"shoe", "price":2, "inventory_count":6},
+            "food":{"title":"food", "price":3, "inventory_count":7},
+            "bark":{"title":"bark", "price":4, "inventory_count":8},
+            "bazz":{"title":"bazz", "price":5, "inventory_count":9},
+            "booo":{"title":"booo", "price":100, "inventory_count":0}}
 
 ## quick reference for what codes correspond to
 codes = {200: "OK", 404: "Not Found", 400: "Bad Request"}
