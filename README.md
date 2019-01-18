@@ -50,7 +50,7 @@ http://corn-syrup.csclub.uwaterloo.ca:5678/ - feel free to test it out there.
     {"book": {"price": 1, "inventory_count": 5}, "shoe": {"price": 2, "inventory_count": 6}, "food": {"price": 3, "inventory_count": 7}, "bark": {"price": 4, "inventory_count": 8}, "bazz": {"price": 5, "inventory_count": 9}, "booo": {"price": 100, "inventory_count": 0}}
     ```
 - `POST /buy`
-  - Required parameter:`name1=count1&name2=count2...`
+  - Required parameter:`name1=count1&name2=count2&...`
   - We define a "purchase" as a decrease in the stock of an item
   - Sets the remaining inventory_count of each name_1 item to the difference between the current inventory_count and the count_n
     parameter, unless the purchase would put the inventory count below 0 (in which case it would simply be set to 0)
