@@ -60,3 +60,7 @@ http://corn-syrup.csclub.uwaterloo.ca:5678/ - feel free to test it out there.
     ```
     {"book": {"title": "book", "price": 1, "inventory_count": 3}, "bark": {"title": "bark", "price": 4, "inventory_count": 0}}
     ```
+ 
+ (there's also the undocumented `POST /unbuy` (which is exactly what it sounds like) that you can use for tinkering around on the server)
+ 
+ That's it from me folks. Hope to see you all soon.
