@@ -56,7 +56,7 @@ I tested the server with Postman v6.7.1. You can find a live copy of the server 
     parameter, unless the purchase would put the inventory count below 0 (in which case it would simply be set to 0)
   - Returns the updated state of each name_n, in the same manner as fetch
   - Satisfies requirement 4
-  - Example:
+  - Example for `POST /buy?book=2&bark=10`:
     ```
     {"book": {"title": "book", "price": 1, "inventory_count": 3}, "bark": {"title": "bark", "price": 4, "inventory_count": 0}}
     ```
