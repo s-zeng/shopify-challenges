@@ -27,7 +27,7 @@ to abstractify much of this. But I hope that the core take away of this exercise
 cares enough to really understand the details of everything I'm working on.
 
 I tested the server with Postman v6.7.1. You can find a live copy of the server (with this exact code) running on
-http://corn-syrup.csclub.uwaterloo.ca:5678/ - feel free to test it out there.
+http://corn-syrup.csclub.uwaterloo.ca:28128/ - feel free to test it out there.
 
 ### Full documentation
 
